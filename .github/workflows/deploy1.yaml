@@ -16,7 +16,7 @@ jobs:
       - name: Connect via SSH
         uses: appleboy/ssh-action@master
         with:
-          host: 188.88.198.20
+          host: "188.88.198.20"
           username: stefan
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
