@@ -20,4 +20,4 @@ jobs:
 
       - name: Deploy to Raspberry Pi
         run: |
-          ssh -o StrictHostKeyChecking=no pi@raspberrypi.local 'bash -s' < setup.sh
+          ssh -o StrictHostKeyChecking=no stefan@192.168.0.101 'bash -s' < setup.sh
